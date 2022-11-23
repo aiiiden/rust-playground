@@ -1,3 +1,6 @@
+mod print_hello;
+
 fn main() {
-    println!("Hello, world!");
+    // execute the printHello function
+    print_hello::print_hello();
 }
